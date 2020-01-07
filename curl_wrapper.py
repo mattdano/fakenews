@@ -30,13 +30,12 @@ f = open('./new_curler.sh','w')
 f.write(outfile)
 f.close()
 
-exit()
+#exit()
 os.system('chmod 777 ./new_curler.sh')
 os.system('./new_curler.sh')
 
 print('all done')
 
-exit()
 
 
 f = gzip.open('./response.txt.gz', 'rb')

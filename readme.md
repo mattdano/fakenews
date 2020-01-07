@@ -1,6 +1,21 @@
-Fake news detection. 
+# Fake news detection. 
 
-#Why 
+
+## How to
+
+Needed to reverse engineer the get requests for https://discriminate.grover.allenai.org/api/disc. This was a react app, with XHTTPclient class, which  makes it harder to inject. 
+
+Used the cURL configs to talk to the server. Was working before, but might not now. 
+
+curl_wrapper.py does all the work, and responses are saved in response.txt.gz. Read the gzip file and parse the json inside for the prob score. 
+
+# To DO
+Clone the web interfact too, but looks like we have a different problem to begin with.  
+
+-------
+old stuff below:
+
+# Why 
 Because Boris said so.
 
 # Background
