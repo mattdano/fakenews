@@ -23,12 +23,12 @@ Make it fun by allowing the user to guess which fininal articles are human or ma
 ## Todo:
 In order of usefulness:
 
- - Some function to score a new article: between [0-1] , where 1 is 100% confidence of being ML generated fake news.
+ - Some function to score a new article: between [0-1] , where 1 is 100% confidence of being ML generated fake news. DONE
  
- - Allow aribtary news text to be scored.  
+ - Allow aribtary news text to be scored.  DONE
 
- - Generate some more fake news examples specifc to finance. 
+ - Generate some more fake news examples specifc to finance. TODO
  
- - Make web front end to display results and examples
+ - Make web front end to display results and examples TODO
  
- - Make the front end fun as a game or some useful client interactions
+ - Make the front end fun as a game or some useful client interactions TODO
